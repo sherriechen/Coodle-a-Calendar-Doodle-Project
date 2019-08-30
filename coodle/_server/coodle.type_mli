@@ -1,0 +1,112 @@
+val __eliom__compilation_unit_id__3nUm'v : string
+val connected_user : string Eliom_reference.eref
+val msg : string Eliom_reference.eref
+val signup_msg : string Eliom_reference.eref
+val new_event_msg : string Eliom_reference.eref
+val current_eventname : string Eliom_reference.eref
+val invite_msg : string Eliom_reference.eref
+val set_msg : string Eliom_reference.eref
+val main_service :
+  (unit, unit, Eliom_service.get, Eliom_service.att, Eliom_service.non_co,
+   Eliom_service.non_ext, Eliom_service.reg, [ `WithoutSuffix ], unit, 
+   unit, Eliom_service.non_ocaml)
+  Eliom_service.t
+val login_service :
+  (unit, string * string, Eliom_service.post, Eliom_service.att,
+   Eliom_service.co, Eliom_service.non_ext, Eliom_service.reg,
+   [ `WithoutSuffix ], unit,
+   [ `One of string ] Eliom_parameter.param_name *
+   [ `One of string ] Eliom_parameter.param_name, Eliom_service.non_ocaml)
+  Eliom_service.t
+val signup_service :
+  (unit, unit, Eliom_service.get, Eliom_service.att, Eliom_service.non_co,
+   Eliom_service.non_ext, Eliom_service.reg, [ `WithoutSuffix ], unit, 
+   unit, Eliom_service.non_ocaml)
+  Eliom_service.t
+val create_account_service :
+  (unit, string * string, Eliom_service.post, Eliom_service.att,
+   Eliom_service.co, Eliom_service.non_ext, Eliom_service.reg,
+   [ `WithoutSuffix ], unit,
+   [ `One of string ] Eliom_parameter.param_name *
+   [ `One of string ] Eliom_parameter.param_name, Eliom_service.non_ocaml)
+  Eliom_service.t
+val logout_service :
+  (unit, unit, Eliom_service.get, Eliom_service.att, Eliom_service.co,
+   Eliom_service.non_ext, Eliom_service.reg, [ `WithoutSuffix ], unit, 
+   unit, Eliom_service.non_ocaml)
+  Eliom_service.t
+val new_event_service :
+  (unit, unit, Eliom_service.get, Eliom_service.att, Eliom_service.non_co,
+   Eliom_service.non_ext, Eliom_service.reg, [ `WithoutSuffix ], unit, 
+   unit, Eliom_service.non_ocaml)
+  Eliom_service.t
+val create_event_service :
+  (unit, string * (string * (string * bool)), Eliom_service.post,
+   Eliom_service.att, Eliom_service.co, Eliom_service.non_ext,
+   Eliom_service.reg, [ `WithoutSuffix ], unit,
+   [ `One of string ] Eliom_parameter.param_name *
+   ([ `One of string ] Eliom_parameter.param_name *
+    ([ `One of string ] Eliom_parameter.param_name *
+     [ `One of bool ] Eliom_parameter.param_name)),
+   Eliom_service.non_ocaml)
+  Eliom_service.t
+val invite_ppl_service :
+  (unit, unit, Eliom_service.get, Eliom_service.att, Eliom_service.non_co,
+   Eliom_service.non_ext, Eliom_service.reg, [ `WithoutSuffix ], unit, 
+   unit, Eliom_service.non_ocaml)
+  Eliom_service.t
+val set_manager_ppl_service :
+  (unit, unit, Eliom_service.get, Eliom_service.att, Eliom_service.non_co,
+   Eliom_service.non_ext, Eliom_service.reg, [ `WithoutSuffix ], unit, 
+   unit, Eliom_service.non_ocaml)
+  Eliom_service.t
+val invite_service :
+  (unit, string, Eliom_service.post, Eliom_service.att, Eliom_service.co,
+   Eliom_service.non_ext, Eliom_service.reg, [ `WithoutSuffix ], unit,
+   [ `One of string ] Eliom_parameter.param_name, Eliom_service.non_ocaml)
+  Eliom_service.t
+val set_manager_service :
+  (unit, string, Eliom_service.post, Eliom_service.att, Eliom_service.co,
+   Eliom_service.non_ext, Eliom_service.reg, [ `WithoutSuffix ], unit,
+   [ `One of string ] Eliom_parameter.param_name, Eliom_service.non_ocaml)
+  Eliom_service.t
+val finalize_service :
+  (unit, unit, Eliom_service.post, Eliom_service.non_att, Eliom_service.co,
+   Eliom_service.non_ext, Eliom_service.reg, [ `WithoutSuffix ], unit, 
+   unit, Eliom_service.non_ocaml)
+  Eliom_service.t
+val quit_service :
+  (unit, unit, Eliom_service.post, Eliom_service.non_att, Eliom_service.co,
+   Eliom_service.non_ext, Eliom_service.reg, [ `WithoutSuffix ], unit, 
+   unit, Eliom_service.non_ocaml)
+  Eliom_service.t
+val schedule_service :
+  (unit, unit, Eliom_service.get, Eliom_service.att, Eliom_service.non_co,
+   Eliom_service.non_ext, Eliom_service.reg, [ `WithoutSuffix ], unit, 
+   unit, Eliom_service.non_ocaml)
+  Eliom_service.t
+val past_service :
+  (unit, unit, Eliom_service.get, Eliom_service.att, Eliom_service.non_co,
+   Eliom_service.non_ext, Eliom_service.reg, [ `WithoutSuffix ], unit, 
+   unit, Eliom_service.non_ocaml)
+  Eliom_service.t
+module Event_app : Eliom_registration.APP
+val event_service :
+  (string Eliom_content.Html.D.wrap, unit, Eliom_service.get,
+   Eliom_service.att, Eliom_service.non_co, Eliom_service.non_ext,
+   Eliom_service.reg, [ `WithSuffix ],
+   [ `One of string ] Eliom_parameter.param_name, unit, Event_app.return)
+  Eliom_service.t
+val event_links :
+  string Eliom_content.Html.D.wrap Eliom_content.Html.D.wrap list ->
+  [> Html_types.ul ] Eliom_content.Html.D.elt
+val user_lst :
+  string Eliom_content.Html.D.wrap list ->
+  [> Html_types.ul ] Eliom_content.Html.D.elt
+val filter_time : string -> bool
+val sort_time : string -> string -> int
+val finalized_lst :
+  string list -> [> Html_types.ul ] Eliom_content.Html.D.elt
+val finalized_past_lst :
+  string list -> [> Html_types.ul ] Eliom_content.Html.D.elt
+val major_dom : unit -> [> Html_types.div ] Eliom_content.Html.D.elt Lwt.t

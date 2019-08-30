@@ -1,0 +1,17 @@
+PROJECT := database
+LINK_PKG := pgocaml
+COMP_PKG := pgocaml,pgocaml.syntax
+
+db: $(PROJECT)
+	ocamlc -c $(PROJECT).mli
+$(PROJECT): $(PROJECT).cmo
+	ocamlfind ocamlc -package $(LINK_PKG) -linkpkg -o $@ $<
+
+$(PROJECT).cmo: $(PROJECT).ml
+	ocamlfind ocamlc -package $(COMP_PKG) -syntax camlp4o -c $<
+
+db-test:
+	ocamlbuild -package ounit -package pgocaml database_test.byte && ./database_test.byte
+
+db-init:
+	psql -U coodle

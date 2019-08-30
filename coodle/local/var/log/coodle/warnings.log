@@ -1,0 +1,56 @@
+Dec  7 11:24:18: ocsipersist:dbm: Initializing ...
+Dec  7 11:24:19: ocsipersist:dbm: Launching a new Ocsidbm process: /Users/qihangyan/.opam/4.04.0/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/coodle/ocsipersist.
+Dec  7 11:24:19: ocsipersist:dbm: ...Initialization complete
+Dec  7 11:24:19: ocsigen:config: While parsing config file, tag <host>: No defaulthostname, assuming it is "dhcp-uris-304.eduroam.cornell.edu"
+Dec  7 11:25:25: ocsipersist:dbm: Initializing ...
+Dec  7 11:25:26: ocsipersist:dbm: Launching a new Ocsidbm process: /Users/qihangyan/.opam/4.04.0/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/coodle/ocsipersist.
+Dec  7 11:25:26: ocsipersist:dbm: ...Initialization complete
+Dec  7 11:25:26: ocsigen:config: While parsing config file, tag <host>: No defaulthostname, assuming it is "dhcp-uris-304.eduroam.cornell.edu"
+Dec  7 11:25:53: ocsipersist:dbm: Initializing ...
+Dec  7 11:25:55: ocsipersist:dbm: Launching a new Ocsidbm process: /Users/qihangyan/.opam/4.04.0/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/coodle/ocsipersist.
+Dec  7 11:25:55: ocsipersist:dbm: ...Initialization complete
+Dec  7 11:25:55: ocsigen:config: While parsing config file, tag <host>: No defaulthostname, assuming it is "dhcp-uris-304.eduroam.cornell.edu"
+Dec  7 11:26:54: ocsipersist:dbm: Initializing ...
+Dec  7 11:26:55: ocsipersist:dbm: Launching a new Ocsidbm process: /Users/qihangyan/.opam/4.04.0/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/coodle/ocsipersist.
+Dec  7 11:26:55: ocsipersist:dbm: ...Initialization complete
+Dec  7 11:26:55: ocsigen:config: While parsing config file, tag <host>: No defaulthostname, assuming it is "dhcp-uris-304.eduroam.cornell.edu"
+Dec  7 11:34:27: ocsipersist:dbm: Initializing ...
+Dec  7 11:34:28: ocsipersist:dbm: Launching a new Ocsidbm process: /Users/qihangyan/.opam/4.04.0/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/coodle/ocsipersist.
+Dec  7 11:34:28: ocsipersist:dbm: ...Initialization complete
+Dec  7 11:34:28: ocsigen:config: While parsing config file, tag <host>: No defaulthostname, assuming it is "dhcp-uris-304.eduroam.cornell.edu"
+Dec  7 11:35:18: ocsipersist:dbm: Initializing ...
+Dec  7 11:35:19: ocsipersist:dbm: Launching a new Ocsidbm process: /Users/qihangyan/.opam/4.04.0/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/coodle/ocsipersist.
+Dec  7 11:35:19: ocsipersist:dbm: ...Initialization complete
+Dec  7 11:35:19: ocsigen:config: While parsing config file, tag <host>: No defaulthostname, assuming it is "dhcp-uris-304.eduroam.cornell.edu"
+Dec  7 11:36:54: ocsipersist:dbm: Initializing ...
+Dec  7 11:36:55: ocsipersist:dbm: Launching a new Ocsidbm process: /Users/qihangyan/.opam/4.04.0/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/coodle/ocsipersist.
+Dec  7 11:36:55: ocsipersist:dbm: ...Initialization complete
+Dec  7 11:36:55: ocsigen:config: While parsing config file, tag <host>: No defaulthostname, assuming it is "dhcp-uris-304.eduroam.cornell.edu"
+Dec  7 11:41:01: ocsipersist:dbm: Initializing ...
+Dec  7 11:41:02: ocsipersist:dbm: Launching a new Ocsidbm process: /Users/qihangyan/.opam/4.04.0/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/coodle/ocsipersist.
+Dec  7 11:41:02: ocsipersist:dbm: ...Initialization complete
+Dec  7 11:41:02: ocsigen:config: While parsing config file, tag <host>: No defaulthostname, assuming it is "dhcp-uris-304.eduroam.cornell.edu"
+Dec  7 11:44:35: ocsipersist:dbm: Initializing ...
+Dec  7 11:44:36: ocsipersist:dbm: Launching a new Ocsidbm process: /Users/qihangyan/.opam/4.04.0/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/coodle/ocsipersist.
+Dec  7 11:44:36: ocsipersist:dbm: ...Initialization complete
+Dec  7 11:44:36: ocsigen:config: While parsing config file, tag <host>: No defaulthostname, assuming it is "dhcp-uris-304.eduroam.cornell.edu"
+Dec  7 11:45:59: ocsipersist:dbm: Initializing ...
+Dec  7 11:46:01: ocsipersist:dbm: Launching a new Ocsidbm process: /Users/qihangyan/.opam/4.04.0/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/coodle/ocsipersist.
+Dec  7 11:46:01: ocsipersist:dbm: ...Initialization complete
+Dec  7 11:46:01: ocsigen:config: While parsing config file, tag <host>: No defaulthostname, assuming it is "dhcp-uris-304.eduroam.cornell.edu"
+Dec  7 11:47:07: ocsipersist:dbm: Initializing ...
+Dec  7 11:47:08: ocsipersist:dbm: Launching a new Ocsidbm process: /Users/qihangyan/.opam/4.04.0/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/coodle/ocsipersist.
+Dec  7 11:47:08: ocsipersist:dbm: ...Initialization complete
+Dec  7 11:47:08: ocsigen:config: While parsing config file, tag <host>: No defaulthostname, assuming it is "dhcp-uris-304.eduroam.cornell.edu"
+Dec  7 11:48:53: ocsipersist:dbm: Initializing ...
+Dec  7 11:48:54: ocsipersist:dbm: Launching a new Ocsidbm process: /Users/qihangyan/.opam/4.04.0/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/coodle/ocsipersist.
+Dec  7 11:48:54: ocsipersist:dbm: ...Initialization complete
+Dec  7 11:48:54: ocsigen:config: While parsing config file, tag <host>: No defaulthostname, assuming it is "dhcp-uris-304.eduroam.cornell.edu"
+Dec  7 11:51:46: ocsipersist:dbm: Initializing ...
+Dec  7 11:51:47: ocsipersist:dbm: Launching a new Ocsidbm process: /Users/qihangyan/.opam/4.04.0/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/coodle/ocsipersist.
+Dec  7 11:51:47: ocsipersist:dbm: ...Initialization complete
+Dec  7 11:51:47: ocsigen:config: While parsing config file, tag <host>: No defaulthostname, assuming it is "dhcp-uris-304.eduroam.cornell.edu"
+Dec  7 12:03:24: ocsipersist:dbm: Initializing ...
+Dec  7 12:03:25: ocsipersist:dbm: Launching a new Ocsidbm process: /Users/qihangyan/.opam/4.04.0/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/coodle/ocsipersist.
+Dec  7 12:03:25: ocsipersist:dbm: ...Initialization complete
+Dec  7 12:03:25: ocsigen:config: While parsing config file, tag <host>: No defaulthostname, assuming it is "dhcp-uris-304.eduroam.cornell.edu"

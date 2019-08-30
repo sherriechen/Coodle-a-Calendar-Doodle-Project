@@ -1,0 +1,133 @@
+body {
+  background-color: #dadff0;
+}
+
+p {
+  color: black;
+}
+
+.table {
+  width: 100%;
+}
+
+#inspect_area{
+  width: 150px;
+}
+
+.sub_table p{
+  display: inline;
+  width: 100px;
+}
+
+#numberpar #num{
+  display: inline;
+}
+
+#part #inspect{
+  display: inline;
+}
+
+#inspect table{
+  display: inline;
+}
+
+.sub_table {
+  display: inline-block;
+  width: 300px;
+  height: 150px;
+}
+
+.c_menu {
+  background-color: #c1caeb;
+  width: 100%;
+  text-align: center;
+  height: 60px;
+}
+
+
+.c_links {
+  background-color: #c1caeb;
+  color: black;
+  width: 150px;
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+  align-content: center;
+}
+
+.c_links:hover {
+  background-color: #a8b8f0;
+  height: 60px;
+}
+
+div.c_links a:link {
+  color: black;
+  text-decoration: none;
+}
+
+div.c_links a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+div.c_links a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+.timeslot{
+    height: 0.5cm;
+    weight: 1cm;
+    background-color: #c6d5ea;
+    background-blend-mode: blend;
+    text-align: center;
+    align-content: center;
+}
+.timeslot:hover{
+  background-color: #b3d0e3;
+}
+
+.other-selected {
+    background-color: #DB7093;
+    background-blend-mode: blend;
+}
+.selected {
+    border-style: dashed;
+    border-width: 1px;
+    background-color: #c687ae;
+    background-blend-mode: blend;
+}
+
+input[type=submit] {
+    width: 80px;
+    background-color: #a8b8f0;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #dce2f7;
+}
+
+button {
+    width: 80px;
+    background-color: #a8b8f0;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+  background-color: #dce2f7;
+}
+textarea {
+  width:277px;
+  height:150px;
+}

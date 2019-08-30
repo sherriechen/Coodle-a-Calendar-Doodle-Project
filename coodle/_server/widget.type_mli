@@ -1,0 +1,89 @@
+val __eliom__compilation_unit_id__A7_LHr : string
+val user_pwd_form :
+  (unit, 'a, Eliom_service.post, 'b, 'c, 'd, 'e,
+   [< `WithSuffix | `WithoutSuffix ], 'f,
+   [< string Eliom_parameter.setoneradio ] Eliom_parameter.param_name *
+   [< string Eliom_parameter.setoneradio ] Eliom_parameter.param_name,
+   Eliom_service.non_ocaml)
+  Eliom_service.t -> string -> [> Html_types.div ] Eliom_content.Html.D.elt
+val create_event_form :
+  (unit, 'a, Eliom_service.post, 'b, 'c, 'd, 'e,
+   [< `WithSuffix | `WithoutSuffix ], 'f,
+   [< string Eliom_parameter.setoneradio ] Eliom_parameter.param_name *
+   ([< string Eliom_parameter.setoneradio ] Eliom_parameter.param_name *
+    ([< string Eliom_parameter.setoneradio ] Eliom_parameter.param_name *
+     [< bool Eliom_parameter.setoneradio ] Eliom_parameter.param_name)),
+   Eliom_service.non_ocaml)
+  Eliom_service.t -> [> Html_types.div ] Eliom_content.Html.D.elt
+val setting_form :
+  (unit, 'a, Eliom_service.post, 'b, 'c, 'd, 'e,
+   [< `WithSuffix | `WithoutSuffix ], 'f,
+   [< string Eliom_parameter.setoneradio ] Eliom_parameter.param_name,
+   Eliom_service.non_ocaml)
+  Eliom_service.t -> string -> [> Html_types.div ] Eliom_content.Html.D.elt
+val finalize_form :
+  (unit, 'a, Eliom_service.post, 'b, 'c, 'd, 'e,
+   [< `WithSuffix | `WithoutSuffix ], 'f, unit, Eliom_service.non_ocaml)
+  Eliom_service.t -> [> Html_types.div ] Eliom_content.Html.D.elt
+val quit_form :
+  (unit, 'a, Eliom_service.post, 'b, 'c, 'd, 'e,
+   [< `WithSuffix | `WithoutSuffix ], 'f, unit, Eliom_service.non_ocaml)
+  Eliom_service.t -> [> Html_types.div ] Eliom_content.Html.D.elt
+val inspection_table :
+  string -> string -> [> Html_types.div ] Eliom_content.Html.D.elt
+val event_cache : (string, (int * int) list) Eliom_cscache.t
+val get_cache : string -> (int * int) list Lwt.t
+val get_cache_rpc :
+  (Deriving_Json.Json_string.a, (int * int) list)
+  Eliom_client.server_function
+val _eliom_injected_ident_A7_LHr1 :
+  (Deriving_Json.Json_string.a, (int * int) list)
+  Eliom_client.server_function option ref
+val _eliom_injected_ident_A7_LHr2 :
+  (string, (int * int) list) Eliom_cscache.t option ref
+val filter_select :
+  ('a * 'b * 'c) list -> ('a -> bool) -> ('a * 'b * 'c) list
+val _eliom_fragment_A7_LHr5 : unit Eliom_client_value.t option ref
+val _eliom_escaped_ident_7 :
+  [> Html_types.td ] Eliom_content.Html.D.elt option ref
+val _eliom_fragment_A7_LHr4 : unit Eliom_client_value.t option ref
+val _eliom_escaped_ident_6 : string list option ref
+val _eliom_escaped_ident_5 :
+  [> Html_types.td ] Eliom_content.Html.D.elt option ref
+val _eliom_fragment_A7_LHr3 : unit Eliom_client_value.t option ref
+val _eliom_escaped_ident_4 :
+  [> Html_types.td ] Eliom_content.Html.D.elt option ref
+val _eliom_fragment_A7_LHr2 : unit Eliom_client_value.t option ref
+val _eliom_escaped_ident_3 : string list option ref
+val _eliom_escaped_ident_2 :
+  [> Html_types.td ] Eliom_content.Html.D.elt option ref
+val _eliom_fragment_A7_LHr1 : unit Eliom_client_value.t option ref
+val _eliom_escaped_ident_1 :
+  [> Html_types.td ] Eliom_content.Html.D.elt option ref
+val add_handlers :
+  [> Html_types.td ] Eliom_content.Html.D.elt -> string list -> unit
+val submit_msg : string Eliom_reference.eref
+val timetable :
+  string -> string -> [> Html_types.div ] Eliom_content.Html.D.elt
+type submit_type =
+    Add of string * string * (int * int) list
+  | Remove of string * string * (int * int) list
+val submit_type_of_json : Deriving_Json_lexer.lexbuf -> submit_type
+val submit_type_to_json : Buffer.t -> submit_type -> unit
+val submit_type_json : submit_type Deriving_Json.t
+val submit_timeslots : submit_type -> unit Lwt.t
+val submit_timeslots_rpc : (submit_type, unit) Eliom_client.server_function
+val _eliom_injected_ident_A7_LHr4 :
+  (string, (int * int) list) Eliom_cscache.t option ref
+val _eliom_injected_ident_A7_LHr3 :
+  (submit_type, unit) Eliom_client.server_function option ref
+val _eliom_fragment_A7_LHr7 : unit Eliom_client_value.t option ref
+val _eliom_escaped_ident_11 :
+  [> Html_types.button ] Eliom_content.Html.D.elt option ref
+val _eliom_fragment_A7_LHr6 : unit Eliom_client_value.t option ref
+val _eliom_escaped_ident_10 : 'eliom_inferred_type__a option ref
+val _eliom_escaped_ident_9 : 'eliom_inferred_type__a option ref
+val _eliom_escaped_ident_8 :
+  [> Html_types.button ] Eliom_content.Html.D.elt option ref
+val submitbutton :
+  'eliom_inferred_type__a -> 'eliom_inferred_type__b -> [> Html_types.button ] Eliom_content.Html.D.elt

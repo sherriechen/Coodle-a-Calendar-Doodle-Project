@@ -1,0 +1,30 @@
+_server/coodle.cmo : _server/widget.cmo _server/time.cmi _server/database.cmi
+_server/coodle.cmx : _server/widget.cmx _server/time.cmx _server/database.cmx
+_server/coodle.type_mli : _server/widget.cmo _server/time.cmi _server/database.cmi
+_server/coodle.cmo : _server/coodle.type_mli
+_server/coodle.cmx : _server/coodle.type_mli
+_server/widget.cmo : _server/time.cmi _server/database.cmi
+_server/widget.cmx : _server/time.cmx _server/database.cmx
+_server/widget.type_mli : _server/time.cmi _server/database.cmi
+_server/widget.cmo : _server/widget.type_mli
+_server/widget.cmx : _server/widget.type_mli
+_server/database.cmo : _server/database.cmi
+_server/database.cmx : _server/database.cmi
+_server/time.cmo : _server/time.cmi
+_server/time.cmx : _server/time.cmi
+_server/database.cmi :
+_server/time.cmi :
+_client/coodle.cmo :
+_client/coodle.cmx :
+_client/coodle.cmo : _server/coodle.type_mli
+_client/coodle.cmx : _server/coodle.type_mli
+_client/widget.cmo :
+_client/widget.cmx :
+_client/widget.cmo : _server/widget.type_mli
+_client/widget.cmx : _server/widget.type_mli
+_client/database.cmo : _client/database.cmi
+_client/database.cmx : _client/database.cmi
+_client/time.cmo : _client/time.cmi
+_client/time.cmx : _client/time.cmi
+_client/database.cmi :
+_client/time.cmi :

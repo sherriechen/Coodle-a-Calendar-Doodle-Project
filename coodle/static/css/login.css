@@ -1,0 +1,117 @@
+body {
+  background-color: #dadff0;
+  font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+}
+
+p {
+  color: #27292b;
+}
+
+.menu {
+  background-color: #c1caeb;
+  width: 100%;
+  text-align: center;
+  height: 60px;
+}
+
+.header {
+  background-color: #c1caeb;
+  color: black;
+  width: 150px;
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+  align-content: center;
+}
+
+.header:hover {
+  background-color: #a8b8f0;
+  height: 60px;
+}
+
+div.header a:link {
+  color: black;
+  text-decoration: none;
+}
+
+div.header a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+div.header a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+.e_links {
+  text-align: left;
+}
+
+.create_event {
+  text-align: left
+}
+
+div.create_event a:link {
+  color: black;
+  text-decoration: none;
+}
+
+div.create_event a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+div.create_event a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+.w_msg {
+  text-align: center;
+  align-content: center;
+}
+
+.e_msg {
+  text-align: left;
+}
+
+.result {
+  text-align: center;
+}
+
+li {
+  list-style-type: none;
+}
+
+li a {
+  display: block;
+  color: #000;
+  font-size: 16pt;
+  padding: 8px 16px;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+li a:hover {
+  color: #000;
+  list-style-type: none;
+  font-size: 20pt;
+}
+
+input[type=submit] {
+    width: 80px;
+    background-color: #dadff0;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+    font-size: 14px;
+}
+
+input[type=submit]:hover {
+    background-color: #a1abcc;
+}

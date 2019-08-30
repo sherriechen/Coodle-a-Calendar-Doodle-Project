@@ -1,0 +1,4 @@
+_client/widget.cmo :
+_client/widget.cmx :
+_client/widget.cmo : _server/widget.type_mli
+_client/widget.cmx : _server/widget.type_mli

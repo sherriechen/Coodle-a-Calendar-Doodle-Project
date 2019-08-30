@@ -1,0 +1,5 @@
+_server/widget.cmo : _server/time.cmi _server/database.cmi
+_server/widget.cmx : _server/time.cmx _server/database.cmx
+_server/widget.type_mli : _server/time.cmi _server/database.cmi
+_server/widget.cmo : _server/widget.type_mli
+_server/widget.cmx : _server/widget.type_mli

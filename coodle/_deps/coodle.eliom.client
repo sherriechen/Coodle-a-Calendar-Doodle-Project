@@ -1,0 +1,4 @@
+_client/coodle.cmo :
+_client/coodle.cmx :
+_client/coodle.cmo : _server/coodle.type_mli
+_client/coodle.cmx : _server/coodle.type_mli

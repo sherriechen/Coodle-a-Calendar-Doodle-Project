@@ -1,0 +1,5 @@
+_server/coodle.cmo : _server/widget.cmo _server/time.cmi _server/database.cmi
+_server/coodle.cmx : _server/widget.cmx _server/time.cmx _server/database.cmx
+_server/coodle.type_mli : _server/widget.cmo _server/time.cmi _server/database.cmi
+_server/coodle.cmo : _server/coodle.type_mli
+_server/coodle.cmx : _server/coodle.type_mli
