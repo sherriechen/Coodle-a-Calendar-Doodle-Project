@@ -1,9 +1,9 @@
 Instructions to Coodle
 ===============================================================================
 Coodle Features:
-• Supports different admin rights for group events and displays personal agenda for individual users
-• Client-server architecture using extennal libraries of OCaml; provided a GUI interface using Eliom
-• Local database in PG’Ocaml; connected web applications to database with Js_of_ocaml
+• Supports different admin rights for group events and displays personal agenda for individual users </br>
+• Client-server architecture using extennal libraries of OCaml; provided a GUI interface using Eliom </br>
+• Local database in PG’Ocaml; connected web applications to database with Js_of_ocaml </br>
 
 How to compile and run Coodle:
 1.Install PostgreSQL (assume Homebrew is already installed and no previous version of PostgreSQL is installed):
