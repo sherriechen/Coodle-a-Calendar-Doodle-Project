@@ -2,7 +2,7 @@ Instructions to Compile and Run Coodle
 ===============================================================================
 1.Install PostgreSQL (assume Homebrew is already installed and no previous version of PostgreSQL is installed):
   Run install_db.command.
-This shell script will install PostgreSQL using Homebrew and set up a local database server.
+This shell script will install PostgreSQL using Homebrew and set up a local database server.</br>
 2. Install and Run Coodle:
 After downloading Coodle folder to computer, open terminal and enter command
 cd path_to_WebCoodle/WebCoodle/coodle. For example, if you download Coodle to
