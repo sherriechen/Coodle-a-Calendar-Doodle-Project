@@ -1,6 +1,6 @@
 Instructions to Coodle
 ===============================================================================
-Coodle Features:
+Coodle Features:</br>
 • Supports different admin rights for group events and displays personal agenda for individual users </br>
 • Client-server architecture using extennal libraries of OCaml; provided a GUI interface using Eliom </br>
 • Local database in PG’Ocaml; connected web applications to database with Js_of_ocaml </br>
